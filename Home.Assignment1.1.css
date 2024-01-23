@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: Papyrus, sans-serif;
+}
+
+.kiwi-background {
+  background-color: #d2e3c8;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #d9edbf;
+  padding: 20px;
+}
+
+.section-image {
+  width: 250px;
+}
+
+#section-1 {
+  background-color: #b19470;
+}
+
+#section-2 {
+  background-color: #f3edc8;
+}
+
+#section-3 {
+  background-color: #9dbc98;
+}
+
+h2 {
+  color: #4f6f52;
+}
+
+p {
+  color: #503c3c;
+}
+
+.cards-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.card {
+  flex-basis: 23%;
+  margin: 1%;
+  border: 1px solid #9dbc98;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: #d2e3c8;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.card:hover {
+  box-shadow: 0 10px 4px 2px rgba(0, 0, 0, 0.7);
+  transition: box-shadow 1s linear;
+}
+
+footer {
+  background-image: url("הורדה (3).jpeg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+html {
+  scroll-behavior: smooth;
+}

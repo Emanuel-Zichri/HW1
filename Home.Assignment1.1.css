@@ -17,7 +17,8 @@ body {
 }
 
 .section-image {
-  width: 250px;
+  width: 200px;
+  height: 150px;
 }
 
 #section-1 {
@@ -57,9 +58,9 @@ p {
   background-color: #d2e3c8;
 }
 
-.card img {
+.card_img {
   max-width: 100%;
-  height: auto;
+  height: 250;
   margin-bottom: 10px;
 }
 .card:hover {
